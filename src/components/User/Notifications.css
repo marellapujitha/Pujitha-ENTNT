@@ -1,0 +1,89 @@
+.notifications-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: 60px;
+}
+#n{
+  color: black;
+  text-align: center;
+}
+.notifications-overdue {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #ffdede; /* Light red */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-due-today {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #fdfdd7; /* Light yellow */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notifications-overdue h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #930311; /* Red for overdue */
+  text-align: center;
+}
+
+.notifications-due-today h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #aa820b; /* Yellow for due today */
+}
+
+.notifications-details h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+#t {
+  background-color: #fdfdd7; /* Light yellow */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.notification-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fde9e9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.notification-item strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.count {
+  font-size: 2em;
+  color: #007bff;
+  margin-left: 20px;
+}

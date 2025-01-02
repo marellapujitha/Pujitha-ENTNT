@@ -1,0 +1,66 @@
+.calendar-page-container {
+  padding: 20px;
+}
+
+.calendar-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.calendar-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.calendar-button.active {
+  background-color: #0066cc;
+  color: white;
+}
+
+.calendar-button.notifications {
+  position: relative;
+}
+
+.calendar-button.notifications .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 10px;
+}
+
+.calendar-container {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+}
+h2{
+  color: white;
+}
+
+.react-calendar {
+  border: none;
+}
+
+.react-calendar__tile {
+  position: relative;
+}
+
+.react-calendar__tile .event {
+  font-size: 10px;
+  color: white;
+  background: #0066cc;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
