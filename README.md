@@ -26,3 +26,28 @@ This repository hosts the code for a React-based Communication Tracking & Report
 ![image alt](https://github.com/marellapujitha/Pujitha-ENTNT/blob/77292ae957628bc0119c39fad8c45b1308cf32b3/i11.png)
 
 ![image alt](https://github.com/marellapujitha/Pujitha-ENTNT/blob/77292ae957628bc0119c39fad8c45b1308cf32b3/i12.png)
+
+
+## Features
+
+- Calendar View
+  - View scheduled communication events.
+  - Monthly, Weekly, and Daily view modes.
+
+- Reports Dashboard
+  - Communication Frequency.
+  - Engagement Effectiveness.
+  - Overdue Trends.
+
+- Real-Time Activity Log
+  - Logs follow-up emails and calls.
+  - Tracks missed communications.
+    
+- Overdue Trends
+   - Visualize overdue communication trends for different companies using a line chart.
+   - Filter data by company and date range.
+     
+-Engagement Effectiveness
+   - Show engagement effectiveness with a pie chart displaying communication method distributions.
+   - Allows filtering by company.
+
